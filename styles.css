@@ -1,0 +1,27 @@
+#desktop-nav {
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 32px;
+    width: 400px;
+    padding: 0 0 0 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* .logo img {
+    
+} */
+
+.links {
+    height: 32px;
+   display: flex;
+   flex-direction: row;
+   padding: 0 24px 0 0; 
+}
