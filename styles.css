@@ -233,3 +233,9 @@ footer {
     text-decoration: none;
 }
 
+@media (width <= 480px ) {
+    body {
+        background-color: aqua;
+    }
+    
+}
