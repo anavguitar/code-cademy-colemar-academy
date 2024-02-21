@@ -326,4 +326,31 @@ footer {
     .main-gallery-text * {
         margin: 8px 0;
     }
+
+    #course {
+        background-color: white;
+    }
+
+    #learn-gallery {
+        display: flex;
+        flex-flow: column nowrap ;
+    }
+
+    #learn-gallery .gallery-div {
+        width: 100%;
+        padding: 16px;
+        background-color: lightgray;
+        text-align: center;
+    }
+
+
+    .gallery-div img, .gallery-div p {
+        display: none;
+    }
+
+    .gallery-div * {
+        margin: 0;
+    }
+
+  
 }
