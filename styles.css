@@ -248,13 +248,17 @@ footer {
         flex-direction: column;
         width: 100%;
         background-color: lightgray;
+        padding: 32px 16px;
     }
 
     #header img {
         width: auto;
-        
+        padding: 0;
     }
 
+    #header .header-link {
+        width: auto;
+    }
 
     #main-img {
         display: none;
