@@ -246,7 +246,15 @@ footer {
     #header {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        background-color: lightgray;
     }
+
+    #header img {
+        width: auto;
+        
+    }
+
 
     #main-img {
         display: none;
