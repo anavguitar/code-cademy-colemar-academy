@@ -292,6 +292,7 @@ footer {
         align-items: center;
         width: 100%;
         padding: 16px 16px 32px 16px;
+        border-bottom: 1px solid lightgray;
     }
 
     #main-gallery {
@@ -329,6 +330,9 @@ footer {
 
     #course {
         background-color: white;
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid lightgray;
     }
 
     #learn-gallery {
@@ -339,6 +343,7 @@ footer {
     #learn-gallery .gallery-div {
         width: 100%;
         padding: 16px;
+        margin-bottom: 16px;
         background-color: lightgray;
         text-align: center;
     }
@@ -350,6 +355,7 @@ footer {
 
     .gallery-div * {
         margin: 0;
+        
     }
 
   
