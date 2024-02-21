@@ -233,7 +233,7 @@ footer {
     text-decoration: none;
 }
 
-@media (width <= 480px ) {
+@media only screen and (max-width: 480px) {
     body {
         background-color: aqua;
     }
