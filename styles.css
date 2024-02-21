@@ -308,6 +308,8 @@ footer {
         align-items: center;
     }
 
+  
+
     .gallery img {
         width: 90%;
         height: 45%;
@@ -358,5 +360,26 @@ footer {
         
     }
 
+    #thesis {
+        border-bottom: 1px solid lightgray;
+    }
+
+    #vid-media-container, #video-container {
+        width: 100%;
+    }
+
+
+    #vid-gallery-container, #video-container p, #video-container h3 {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .terms {
+        display: none;
+    }
   
 }
