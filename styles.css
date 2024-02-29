@@ -60,39 +60,39 @@ a {
     width: 100vw;
     background-color: lightgray;
     display: flex;
-    margin: 0 24px;
+    justify-content: space-around;
+    padding: 4em 4em;
 }
 
 
 #header > img {
-    height: 60%;
-    width: 60%;
-    padding: 32px 24px;
+    height: 50vw;
+    width: 50vw;
+    /* padding: 32px 24px; */
 }
 
 .header-link {
-    width: 27.5%;
+    width: 25vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin: 0 0 0 24px;
+    text-align: center;
 }
 
 .header-link h2 {
-    font-size: 2.5em;
-    font-weight: bolder;
+    font-size: 1.8em;
 }
 
 .header-link p {
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 .header-link button {
     background-color: rgb(48, 48, 48);
     color: white;
     padding: 8px 0;
-    width: 95%;
+    width: 100%;
     height: 48px;
     align-self: flex-start;
 }
