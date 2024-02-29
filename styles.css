@@ -40,7 +40,6 @@ a {
 }
 
 
-
 .logo img {
     width: 10%
 }
@@ -57,6 +56,11 @@ a {
     padding: 0 0 0 16px;
     color: black;
     text-decoration: none;
+    transition: color 125ms ease-in 125ms ;
+}
+
+.links a:hover {
+    color: cornflowerblue;
 }
 
 #header {
