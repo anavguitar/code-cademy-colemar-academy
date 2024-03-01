@@ -129,21 +129,29 @@ a {
 
 .gallery {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
    
 }
 
+.main-gallery-img, .main-gallery-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
  .main-gallery-img > img{
     width: 8vw;
-    height: auto;
+    height: 8vw;
 }
 
 
 .gallery > .main-gallery-text {
     width: 10vw;
-    height: auto;
+    height: 20vw;
     text-align: center;
     font-size: .7em;
 }
