@@ -135,17 +135,18 @@ p {
 
 /* 
 Try messing with % for the images instead */
- .main-gallery-img > img{
+ .main-gallery-img > img, .vid-gallery-div > img{
     width: 12vw;
 }
 
 
-.gallery > .main-gallery-text {
-    width: 10vw;
+.gallery > .main-gallery-text, .vid-gallery-div > .vid-gallery-text {
+    width: 20vw;
     text-align: center;
+    padding: 16px;
 } 
 
- .grey-div, .grey-div-two {
+ .grey-div {
     background-color: lightgray;
 }
 
@@ -195,39 +196,39 @@ align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
+    padding: 32px 24px;
 }
 
 #thesis-header {
-    /* width: 100%;
-    height: 20%; */
     text-align: center;
 }
 
 #vid-media-container {
     display: flex;
-    /* width: 100%; */
+    width: 100%;
 }
 
-/* #video-container {
-    /* width: 60%; 
-    padding: 32px 24px; 
-} */
+#video-container {
+     width: 60%;  
+}
 
-/* #video-container > video {
+#video-container > video {
     width: 100%;
-} */
+}
 
 #vid-gallery-container {
     display: flex;
     flex-direction: column;
-    /* width: 40%;
-    padding: 32px 24px; */
-
+    width: 40%;
 }
 
-
-#vid-gallery-container .vid-gallery-one {
-    background-color: lightgray;
+.vid-gallery-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
 }
 
 footer {
