@@ -60,18 +60,21 @@ a {
     width: 100vw;
     background-color: lightgray;
     display: flex;
-    justify-content: space-around;
-    padding: 4em 4em;
+    padding: 32px 24px;
 }
 
 
- #header > img {
-    width: 40vw;
-    height: auto;
+#header-img {
+    width: 60%;
+    
+}
+
+#header-img > img, #main-img > img {
+    width: 100%;
 }
 
 .header-link {
-    width: 25vw;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -79,52 +82,47 @@ a {
     text-align: center;
 }
 
-.header-link h2 {
-    font-size: 1.8em;
+h2 {
+    font-size: 2vw;
 }
 
-.header-link p {
-    font-size: 1.25em;
+p {
+    font-size: 1.5vw;
 }
 
 .header-link button {
     background-color: rgb(48, 48, 48);
     color: white;
-    padding: 8px 0;
-    width: 100%;
+    /* padding: 8px 0; */
+    width: 25vw;
     height: 48px;
-    align-self: flex-start;
+    align-self: center;
 }
 
 #main {
     display: flex;
     width: 100vw;
-    justify-content: space-evenly;
+    padding: 32px 24px;
 }
 
 
 #main-img  {
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     /* flex: 0 1 auto; */
 }
 
-#main-img > * {
-    width: 40vw;
-    height: auto;
-}
 
 #main-gallery {
+    width:40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 25vw;
-    border-left: 1px solid lightgray;
-    border-right: 1px solid lightgray;
 }
 
 .gallery {
@@ -135,68 +133,62 @@ a {
    
 }
 
-.main-gallery-img, .main-gallery-text {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
+/* 
+Try messing with % for the images instead */
  .main-gallery-img > img{
-    width: 8vw;
-    height: 8vw;
+    width: 12vw;
 }
 
 
 .gallery > .main-gallery-text {
     width: 10vw;
-    height: 20vw;
     text-align: center;
-    font-size: .7em;
-}
+} 
 
-/* .grey-div, .grey-div-two {
+ .grey-div, .grey-div-two {
     background-color: lightgray;
-} */
+}
 
 #course {
     width: 100vw;
   
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center; 
     align-items: center;
     background-color: lightgray;
-    padding: 32px;
+    padding: 32px 72px;
 }
 
 
-
 #learn-gallery {
-    
-   
 display: flex;
 flex-flow: row wrap;
 justify-content: space-between;
 align-items: center;
-
 }
 
 .gallery-div {
     display: flex;
     flex-flow: column nowrap;
-    
+    justify-content: space-between;
+    width: 25vw;
+    height: 27.5vw;
     background-color: white;
-    
+    margin: 16px;
 }
 
-/* .gallery-div img {
+.gallery-div img {
+    height: 50%;
+}
 
-} */
-
-.gallery-padding * {
+.gallery-padding {
+    height:50%;
     padding: 8px;
+}
+
+.gallery-padding > p {
+    font-size: 1.25vw;
 }
 
 #thesis {
@@ -218,7 +210,7 @@ align-items: center;
 
 /* #video-container {
     /* width: 60%; 
-    padding: 32px 24px; */
+    padding: 32px 24px; 
 } */
 
 /* #video-container > video {
