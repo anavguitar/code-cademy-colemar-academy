@@ -86,6 +86,10 @@ h2 {
     font-size: 2vw;
 }
 
+h3 {
+    font-size: 1.75vw ;
+}
+
 p, a {
     font-size: 1.5vw;
 }
@@ -122,7 +126,7 @@ p, a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .gallery {
@@ -130,7 +134,8 @@ p, a {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-   
+    height: 30%;
+    border: 1px solid lightgray;
 }
 
 /* 
@@ -139,11 +144,15 @@ Try messing with % for the images instead */
     width: 12vw;
 }
 
+.main-gallery-img .mobile-img {
+    display: none;
+ }
+
 
 .gallery > .main-gallery-text, .vid-gallery-div > .vid-gallery-text {
     width: 20vw;
+    height: 100%;
     text-align: center;
-    padding: 16px;
 } 
 
  .grey-div {
@@ -340,11 +349,16 @@ footer {
         padding: 16px;
     }
 
-  
+    .main-gallery-img {
+        width: 90%
+    }
 
-    .gallery img {
-        width: 90%;
-        height: 45%;
+    .main-gallery-img .desktop-img {
+       display: none;
+    }
+
+    .main-gallery-img .mobile-img {
+        width: 100%;
     }
 
     #grey-div {
@@ -364,8 +378,8 @@ footer {
     #course {
         background-color: white;
         width: 100%;
-        height: auto;
         border-bottom: 1px solid lightgray;
+        padding: 0;
     }
 
     #learn-gallery {
@@ -375,6 +389,7 @@ footer {
 
     #learn-gallery .gallery-div {
         width: 100%;
+        height: auto;
         padding: 16px;
         margin-bottom: 16px;
         background-color: lightgray;
@@ -393,6 +408,7 @@ footer {
 
     #thesis {
         border-bottom: 1px solid lightgray;
+        padding: 0;
     }
 
     #vid-media-container, #video-container {
@@ -406,7 +422,11 @@ footer {
 
     footer {
         display: flex;
-        justify-content: center;
+        justify-content: center;  
+    }
+
+    .copyright p, .terms p {
+        font-size: 4vw;
     }
 
     /* footer .terms {
