@@ -86,7 +86,7 @@ h2 {
     font-size: 2vw;
 }
 
-p {
+p, a {
     font-size: 1.5vw;
 }
 
@@ -251,13 +251,24 @@ footer {
 
 @media only screen and (max-width: 480px) {
     body {
-            margin: auto;
-            padding: 0;
-            width: auto;
+            width: 100vw;
             display: flex;
             flex-direction: column;
             /* justify-content: center; */
             align-items: center;
+            margin: 0;
+    }
+
+    h2 {
+        font-size:8vw;
+    }
+
+    h3 {
+        font-size: 6vw;
+    }
+
+    p, a {
+        font-size: 5vw;
     }
 
     #mobile-nav {
@@ -271,33 +282,27 @@ footer {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        background-color: lightgray;
-        
-        margin: 0;
-    }
-
-    #header img {
-        width: 100%;
         padding: 0;
+        background-color: lightgray;
     }
 
-    #header .header-link {
+    #header-img {
+        width: 100%
+    }
+
+    .header-link {
         display: flex;
         justify-content: center;
-        width: auto;
-        padding: 32px 16px;
-        margin: 0;
         text-align: center;
+        width: 100%;
     }
 
     .header-link > * {
-        margin: 0;
-        padding: 0 0 16px 0;
-        
+        margin: 32px 16px;
     }
 
     #header button {
-        width: 100%;
+        width: 50%;
     }
 
     #desktop-nav,
@@ -316,7 +321,7 @@ footer {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        padding: 16px 16px 32px 16px;
+        padding: 0;
         border-bottom: 1px solid lightgray;
     }
 
@@ -331,6 +336,8 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        padding: 16px;
     }
 
   
@@ -344,12 +351,11 @@ footer {
         background-color: white;
     }
 
-    .gallery .main-gallery-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+    .gallery > .main-gallery-text, .vid-gallery-div > .vid-gallery-text {
+        width: 100%;
+        text-align: center;
+        padding: 16px;
+    } 
 
     .main-gallery-text * {
         margin: 8px 0;
